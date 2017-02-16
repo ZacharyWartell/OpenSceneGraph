@@ -1,3 +1,7 @@
+# tmp
+.*~
+
+# docs
 doc/all_Doxyfile
 doc/auto_Doxyfile
 doc/core_Doxyfile
@@ -19,6 +23,7 @@ src/osgQt/__
 
 lib/
 bin/
+build/
 
 *.pc
 *.conf
@@ -78,3 +83,4 @@ PlatformSpecifics/Windows/*.rc
 # Visual Studio - Browsing Database File
 *.sdf
 *.opensdf
+ipch/
